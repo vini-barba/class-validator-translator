@@ -1,0 +1,9 @@
+{
+  "name": "class-validator-translator",
+  "version": "0.0.0",
+  "description": "lib to translate messages from the class-validator package",
+  "main": "src/index.ts",
+  "repository": "https://github.com/vini-barba/class-validator-translator.git",
+  "author": "Barba <vinicius_gomes.94@hotmail.com>",
+  "license": "MIT"
+}
