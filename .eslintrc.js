@@ -27,13 +27,9 @@ module.exports = {
     'no-console': ['error', { allow: ['warn', 'error'] }],
   },
   settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts'],
-    },
     'import/resolver': {
-      typescript: {
-        alwaysTryTypes: true,
-        project: './tsconfig.json',
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
   },
