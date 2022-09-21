@@ -1,4 +1,5 @@
 {
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
-  "IsMongoId": "O valor {{value}} não é um MongoID válido"
+  "IsMongoId": "O valor {{value}} não é um MongoID válido",
+  "isAlphanumeric": "{{property}} deve conter apenas letras e números"
 }
