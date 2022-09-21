@@ -1,4 +1,4 @@
 {
-	"Contains": "{{property}} deve conter a string '{{constraint}}'",
-	"IsMongoId": "O valor {{value}} não é um MongoID válido"
+  "Contains": "{{property}} deve conter a string '{{constraint}}'",
+  "IsMongoId": "O valor {{value}} não é um MongoID válido"
 }
