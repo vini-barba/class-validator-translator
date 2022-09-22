@@ -17,7 +17,7 @@ describe('Contains', () => {
   it('should translate the message when used with the decorator', () => {
     const want = 'emailAddress deve ser um email';
     class User {
-      @IsEmail({ message: isEmailMessage })
+      @IsEmail({}, { message: isEmailMessage })
       emailAddress!: string;
     }
 
