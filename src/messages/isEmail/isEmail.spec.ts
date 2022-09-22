@@ -27,6 +27,6 @@ describe('Contains', () => {
     const errors = validateSync(user);
     const got = errors[0].constraints?.isEmail;
 
-    expect(1).toBe(1);
+    expect(got).toBe(want);
   });
 });
