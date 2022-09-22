@@ -3,7 +3,7 @@ import isEmailMessage from './isEmail';
 
 describe('Contains', () => {
   it('should return the message translated to portuguese', () => {
-    const want = 'O valor saopaulo123 não é um formato de email válido';
+    const want = 'email deve ser um email';
     const got = isEmailMessage({
       property: 'email',
       constraints: [],
@@ -15,16 +15,17 @@ describe('Contains', () => {
   });
 
   it('should translate the message when used with the decorator', () => {
-    const want = 'O valor user.com não é um formato de email válido';
+    const want = 'emailAddress deve ser um email';
     class User {
       @IsEmail({ message: isEmailMessage })
-      email!: string;
+      emailAddress!: string;
     }
 
     const user = new User();
-    user.email = 'user.com';
+    user.emailAddress = 'user.com';
 
     const errors = validateSync(user);
+
     const got = errors[0].constraints?.isEmail;
 
     expect(got).toBe(want);

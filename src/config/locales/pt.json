@@ -2,5 +2,5 @@
 	"Contains": "{{property}} deve conter a string '{{constraint}}'",
 	"IsMongoId": "O valor {{value}} não é um MongoID válido",
 	"IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
-	"IsEmail": "O valor {{value}} não é um formato de email válido"
+	"IsEmail": "{{property}} deve ser um email"
 }
