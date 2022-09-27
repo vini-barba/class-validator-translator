@@ -1,5 +1,6 @@
 {
-  "Contains": "{{property}} deve conter a string '{{constraint}}'",
-  "IsMongoId": "O valor {{value}} não é um MongoID válido",
-  "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)"
+	"Contains": "{{property}} deve conter a string '{{constraint}}'",
+	"IsMongoId": "O valor {{value}} não é um MongoID válido",
+	"IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
+	"NotContains": "{{property}} não deve conter a string '{{constraint}}'"
 }
