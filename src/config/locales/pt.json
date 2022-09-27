@@ -2,5 +2,5 @@
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
   "IsMongoId": "O valor {{value}} não é um MongoID válido",
   "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
-	"IsDecimal": "{{property}} não é um valor decimal válido"
+  "IsDecimal": "{{property}} não é um valor decimal válido"
 }
