@@ -1,7 +1,7 @@
 import { IsAscii, validateSync } from 'class-validator';
 import isAsciiMessage from './isAscii';
 
-describe('isMongoId', () => {
+describe('isAscii', () => {
   it('should return the message translated to portuguese', () => {
     const want = 'symbol deve conter apenas caracteres ASCII';
     const got = isAsciiMessage({
