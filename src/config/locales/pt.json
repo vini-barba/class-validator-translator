@@ -1,5 +1,6 @@
 {
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
   "IsMongoId": "{{property}} deve ser um mongodb id",
-  "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)"
+  "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
+  "IsBoolean": "{{property}} deve ser um valor booleano"
 }
