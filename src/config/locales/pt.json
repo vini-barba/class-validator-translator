@@ -1,6 +1,10 @@
 {
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
-  "IsMongoId": "O valor {{value}} não é um MongoID válido",
+  "IsMongoId": "{{property}} deve ser um mongodb id",
   "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
+  "IsEmail": "{{property}} deve ser um email",
+  "IsBoolean": "{{property}} deve ser um valor booleano",
+  "isAlphanumeric": "{{property}} deve conter apenas letras e números",
+  "NotContains": "{{property}} não deve conter a string '{{constraint}}'",
   "IsDecimal": "{{property}} não é um valor decimal válido"
 }

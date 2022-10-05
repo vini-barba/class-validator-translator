@@ -1,8 +1,8 @@
 import { ValidationArguments } from 'class-validator';
 import { i18n } from '../../config/i18n';
 
-export default function IsMongoId(args: ValidationArguments) {
-  return i18n.__('IsMongoId', {
+export default function IsEmail(args: ValidationArguments) {
+  return i18n.__('IsEmail', {
     property: args.property,
   });
 }
