@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn test && yarn tsc --noEmit && yarn eslint --fix . && yarn prettier --write ./src
+yarn tsc --noEmit
+yarn test
+yarn lint-staged
