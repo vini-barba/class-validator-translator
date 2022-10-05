@@ -2,7 +2,7 @@
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
   "IsMongoId": "{{property}} deve ser um mongodb id",
   "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
-  "IsEmail": "{{property}} deve ser um email"
+  "IsEmail": "{{property}} deve ser um email",
   "IsBoolean": "{{property}} deve ser um valor booleano",
   "isAlphanumeric": "{{property}} deve conter apenas letras e números"
 }
