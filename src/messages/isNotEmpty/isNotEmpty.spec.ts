@@ -7,7 +7,7 @@ describe('isNotEmpty', () => {
     const got = isNotEmptyMessage({
       property: 'texto',
       constraints: [],
-      value: '123',
+      value: '',
       targetName: 'texto',
       object: {},
     });
