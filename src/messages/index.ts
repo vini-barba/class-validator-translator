@@ -5,3 +5,4 @@ export { default as isAlphaMessage } from './isAlpha/isAlpha';
 export { default as NotContainsMessage } from './notContains/notContains';
 export { default as isEmailMessage } from './isEmail/isEmail';
 export { default as isBooleanMessage } from './isBoolean/isBoolean';
+export { default as isDecimalMessage } from './isDecimal/isDecimal';
