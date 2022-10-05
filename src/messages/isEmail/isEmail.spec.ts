@@ -1,7 +1,7 @@
 import { IsEmail, validateSync } from 'class-validator';
 import isEmailMessage from './isEmail';
 
-describe('Contains', () => {
+describe('IsEmail', () => {
   it('should return the message translated to portuguese', () => {
     const want = 'email deve ser um email';
     const got = isEmailMessage({
