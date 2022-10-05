@@ -3,7 +3,7 @@ import isEnumMessage from './isEnum';
 
 describe('isEnum', () => {
   it('should return the message translated to portuguese', () => {
-    const want = 'tipo deve ser um enum válido';
+    const want = 'tipo deve ser um valor válido do enum';
     const got = isEnumMessage({
       property: 'tipo',
       constraints: ['C', 'R'],
@@ -15,7 +15,7 @@ describe('isEnum', () => {
   });
 
   it('should translate the message when used with the decorator', () => {
-    const want = 'status deve ser um enum válido';
+    const want = 'status deve ser um valor válido do enum';
     class User {
       @IsEnum(['A', 'I'], { message: isEnumMessage })
       status!: string;
