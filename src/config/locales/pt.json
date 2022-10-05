@@ -3,4 +3,6 @@
   "IsMongoId": "O valor {{value}} não é um MongoID válido",
   "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
   "IsEmail": "{{property}} deve ser um email"
+  "IsBoolean": "{{property}} deve ser um valor booleano",
+  "isAlphanumeric": "{{property}} deve conter apenas letras e números"
 }
