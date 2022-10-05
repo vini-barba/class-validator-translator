@@ -6,5 +6,6 @@
   "IsBoolean": "{{property}} deve ser um valor booleano",
   "isAlphanumeric": "{{property}} deve conter apenas letras e números",
   "NotContains": "{{property}} não deve conter a string '{{constraint}}'",
-  "IsDecimal": "{{property}} não é um valor decimal válido"
+  "IsDecimal": "{{property}} não é um valor decimal válido",
+  "IsAscii": "{{property}} deve conter apenas caracteres ASCII"
 }
