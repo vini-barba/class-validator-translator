@@ -8,3 +8,4 @@ export { default as isEmailMessage } from './isEmail/isEmail';
 export { default as isBooleanMessage } from './isBoolean/isBoolean';
 export { default as isDecimalMessage } from './isDecimal/isDecimal';
 export { default as isNotEmptyMessage } from './isNotEmpty/isNotEmpty';
+export { default as isEnumMessage } from './isEnum/isEnum';

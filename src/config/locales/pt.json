@@ -8,5 +8,6 @@
   "NotContains": "{{property}} não deve conter a string '{{constraint}}'",
   "IsDecimal": "{{property}} não é um valor decimal válido",
   "IsAscii": "{{property}} deve conter apenas caracteres ASCII",
-  "IsNotEmpty": "{{property}} não deve ser vazio"
+  "IsNotEmpty": "{{property}} não deve ser vazio",
+  "IsEnum": "{{property}} deve ser um valor válido do enum"
 }
