@@ -1,7 +1,7 @@
 import { IsNotEmpty, validateSync } from 'class-validator';
 import isNotEmptyMessage from './isNotEmpty';
 
-describe('isMongoId', () => {
+describe('isNotEmpty', () => {
   it('should return the message translated to portuguese', () => {
     const want = 'texto não deve ser vazio';
     const got = isNotEmptyMessage({
