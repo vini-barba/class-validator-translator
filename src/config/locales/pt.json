@@ -7,5 +7,6 @@
   "isAlphanumeric": "{{property}} deve conter apenas letras e números",
   "NotContains": "{{property}} não deve conter a string '{{constraint}}'",
   "IsDecimal": "{{property}} não é um valor decimal válido",
-  "IsAscii": "{{property}} deve conter apenas caracteres ASCII"
+  "IsAscii": "{{property}} deve conter apenas caracteres ASCII",
+  "IsNotEmpty": "{{property}} não deve ser vazio"
 }
