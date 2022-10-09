@@ -1,7 +1,7 @@
 import { IsAlphanumeric, validateSync } from 'class-validator';
 import isAlphanumericMessage from './isAlphanumeric';
 
-describe('isMongoId', () => {
+describe('isAlphanumeric', () => {
   it('should return the message translated to portuguese', () => {
     const want = 'texto deve conter apenas letras e números';
     const got = isAlphanumericMessage({
