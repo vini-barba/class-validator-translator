@@ -9,3 +9,4 @@ export { default as isBooleanMessage } from './isBoolean/isBoolean';
 export { default as isDecimalMessage } from './isDecimal/isDecimal';
 export { default as isNotEmptyMessage } from './isNotEmpty/isNotEmpty';
 export { default as isEnumMessage } from './isEnum/isEnum';
+export { default as lengthMessage } from './length/length';
