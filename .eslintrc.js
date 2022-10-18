@@ -25,7 +25,6 @@ module.exports = {
     '@typescript-eslint/no-empty-interface': 'off',
     'class-methods-use-this': 'off',
     'no-console': ['error', { allow: ['warn', 'error'] }],
-    'max-classes-per-file': 'off',
   },
   settings: {
     'import/resolver': {
@@ -34,4 +33,12 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ['src/**/*.spec.ts'],
+      rules: {
+        'max-classes-per-file': 'off',
+      },
+    },
+  ],
 };
