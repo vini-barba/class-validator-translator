@@ -48,7 +48,7 @@ describe('Length', () => {
 
   it('should translate the message when used with the decorator with a type wrongly', () => {
     const want =
-      'age deve ser  maior ou igual a 1 e menor ou igual a 100 caracteres';
+      'age deve ser maior ou igual a 1 e menor ou igual a 100 caracteres';
     class User {
       @Length(1, 100, { message: lengthMessage })
       age!: number;
