@@ -9,5 +9,8 @@
   "IsDecimal": "{{property}} não é um valor decimal válido",
   "IsAscii": "{{property}} deve conter apenas caracteres ASCII",
   "IsNotEmpty": "{{property}} não deve ser vazio",
-  "IsEnum": "{{property}} deve ser um valor válido do enum"
+  "IsEnum": "{{property}} deve ser um valor válido do enum",
+  "LengthMin": "{{property}} deve ser maior ou igual a {{constraint}} caracteres",
+  "LengthMax": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
+  "LengthEach": "{{property}} deve ser maior ou igual a {{constraint1}} e menor ou igual a {{constraint2}} caracteres"
 }

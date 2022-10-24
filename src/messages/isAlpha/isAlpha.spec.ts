@@ -1,7 +1,7 @@
 import { IsAlpha, validateSync } from 'class-validator';
 import isAlphaMessage from './isAlpha';
 
-describe('isMongoId', () => {
+describe('isAlpha', () => {
   it('should return the message translated to portuguese', () => {
     const want = 'texto deve conter apenas letras (a-zA-Z)';
     const got = isAlphaMessage({
