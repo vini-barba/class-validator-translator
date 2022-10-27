@@ -13,5 +13,6 @@
   "LengthMin": "{{property}} deve ser maior ou igual a {{constraint}} caracteres",
   "LengthMax": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
   "LengthEach": "{{property}} deve ser maior ou igual a {{constraint1}} e menor ou igual a {{constraint2}} caracteres",
-  "MaxLength": "{{property}} deve ser menor ou igual a {{constraint}} caracteres"
+  "MaxLength": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
+  "ArrayMaxSize": "{property} não deve conter mais de {constraint} {N, selectordinal, one{item} other{itens}}"
 }
