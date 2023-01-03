@@ -1,7 +1,20 @@
 {
   "Contains": "{{property}} deve conter a string '{{constraint}}'",
-  "IsMongoId": "O valor {{value}} não é um MongoID válido",
+  "IsMongoId": "{{property}} deve ser um mongodb id",
+  "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
+  "IsEmail": "{{property}} deve ser um email",
+  "IsBoolean": "{{property}} deve ser um valor booleano",
   "isAlphanumeric": "{{property}} deve conter apenas letras e números",
   "IsAlpha": "{{property}} deve conter apenas letras (a-zA-Z)",
+  "NotContains": "{{property}} não deve conter a string '{{constraint}}'",
+  "IsDecimal": "{{property}} não é um valor decimal válido",
+  "IsAscii": "{{property}} deve conter apenas caracteres ASCII",
+  "IsNotEmpty": "{{property}} não deve ser vazio",
+  "IsEnum": "{{property}} deve ser um valor válido do enum",
+  "LengthMin": "{{property}} deve ser maior ou igual a {{constraint}} caracteres",
+  "LengthMax": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
+  "LengthEach": "{{property}} deve ser maior ou igual a {{constraint1}} e menor ou igual a {{constraint2}} caracteres",
+  "MaxLength": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
+  "ArrayMaxSize": "{property} não deve conter mais de {constraint} {N, selectordinal, one{item} other{itens}}",
   "ArrayMinSize": "{{property}} deve conter pelo menos {{constraint}} elementos"
 }
