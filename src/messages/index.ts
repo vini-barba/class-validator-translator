@@ -12,3 +12,4 @@ export { default as isEnumMessage } from './isEnum/isEnum';
 export { default as lengthMessage } from './length/length';
 export { default as maxLengthMessage } from './maxLength/maxLength';
 export { default as arrayMaxSizeMessage } from './arrayMaxSize/arrayMaxSize';
+export { default as isPhoneNumberMessage } from './isPhoneNumber/isPhoneNumber';
