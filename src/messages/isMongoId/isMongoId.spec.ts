@@ -3,7 +3,7 @@ import isMongoIdMessage from './isMongoId';
 
 describe('isMongoId', () => {
   it('should return the message translated to portuguese', () => {
-    const want = 'O valor 123 não é um MongoID válido';
+    const want = 'idUser deve ser um mongodb id';
     const got = isMongoIdMessage({
       property: 'idUser',
       constraints: [],
@@ -15,7 +15,7 @@ describe('isMongoId', () => {
   });
 
   it('should translate the message when used with the decorator', () => {
-    const want = 'O valor 12345 não é um MongoID válido';
+    const want = 'id deve ser um mongodb id';
     class User {
       @IsMongoId({ message: isMongoIdMessage })
       id!: string;

@@ -33,4 +33,12 @@ module.exports = {
       },
     },
   },
+  overrides: [
+    {
+      files: ['src/**/*.spec.ts'],
+      rules: {
+        'max-classes-per-file': 'off',
+      },
+    },
+  ],
 };
