@@ -15,5 +15,6 @@
   "LengthEach": "{{property}} deve ser maior ou igual a {{constraint1}} e menor ou igual a {{constraint2}} caracteres",
   "MaxLength": "{{property}} deve ser menor ou igual a {{constraint}} caracteres",
   "ArrayMaxSize": "{property} não deve conter mais de {constraint} {N, selectordinal, one{item} other{itens}}",
-  "isPhoneNumber": "{{property}} deve ser um número de telefone válido"
+  "isPhoneNumber": "{{property}} deve ser um número de telefone válido",
+  "ArrayMinSize": "{property} deve conter pelo menos {constraint} {N, selectordinal, one{elemento} other{elementos}}"
 }
